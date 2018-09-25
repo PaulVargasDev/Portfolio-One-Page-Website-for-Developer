@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #0000ff;
+    border-bottom: #ff9400 1px solid;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#logo {
+    padding: 3px;
+    margin: 0px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+header ul li a:hover {
+    color: #ff9400;
+}
+
+/* SECTION */
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-size: 1.5em;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#about #imgabout {
+    padding: 10px;
+    margin: 5px 10px 5px 10px; 
+}
+
+#about #textabout {
+    padding: 5px;
+}
+
+#portfolio .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#portfolio .container figcaption {
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+#social {
+    text-align: center;
+}
+ #social img {
+     padding: 10px;
+     margin: 10px 40px 10px 40px;
+     width: 10%;
+     height: 10%;
+     transition: all 1s;
+ }
+
+ #social img:hover {
+    transform: scale(1.1);
+ }
+
+ /* FOOTER */
+
+ footer {
+     background-color: blue;
+     color: white;
+     border: #ff9400 1px solid;
+ }
+
+ footer h1 {
+     color: #ff9400;
+     font-size: 2em;
+ }
+
+ #contactform {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ #contactform #contact1 {
+    padding: 15px;
+    margin: 0px;
+ }
+
+  }
+ #contactform #contact2 {
+    padding: 15px;
+    margin: 0px;
+ }
+
+ #contactform span {
+     font-style: italic;
+     color: #ff9400;
+ }
+
+ #small {
+     text-align: center;
+     color: #ff9400;
+     margin: 10px;
+ }
+
+ #small em {
+     text-decoration: underline;
+ }
