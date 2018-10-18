@@ -3,27 +3,39 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Paul Vargas | Web Development</title>
+    <title>Paul Vargas | Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css"/>            
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
     <header>
-    <div class="container">
-        <div id="logo">
-            <img src="images/tree.jpg" alt="Paul Vargas Logo" width="50" height="50">
+    <div id="particles-js">    
+        <div class="navbar">
+            <div id="logo">
+                <img src="images/tree.jpg" alt="Paul Vargas Logo" width="50" height="50">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#1">About</a></li>
+                    <li><a href="#2">Portfolio</a></li>
+                    <li><a href="#3">Social</a></li>
+                    <li><a href="#4">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#1">About</a></li>
-                <li><a href="#2">Portfolio</a></li>
-                <li><a href="#3">Social</a></li>
-                <li><a href="#4">Contact</a></li>
-            </ul>
-        </nav>
+        <div id="title">
+            <h1>Hi! I'm Paul.</h1>
+            <br>
+            <p>Web Developer</p>
+        </div>
+        <!-- Scrolling Button Section (see CodePen: https://codepen.io/tr13ze/pen/VjLLgJ )-->
+        <section>
+            <a href="#" class="scroll-down" address="true"></a>
+        </section>    
     </div>
     </header>
-    <section>
+    <section class="ok"> <!--Here I use the class="ok" from the scrolling button code-->
         <h1 id="1">About Me</h1>
             <div id="about">
                 <div id="imgabout">
@@ -66,7 +78,7 @@
     </section>
     <footer>
         <h1 id="4">Say Hello!</h1>
-            <form action="">
+            <!-- <form action="">
                 <div id="contactform">
                     <div id="contact1">
                         <span>Your name:</span><br>
@@ -79,11 +91,18 @@
                         <textarea name="message" id="messagetext" cols="40" rows="5" placeholder="Say Hello!"></textarea>
                     </div>
                 </div>
-            </form>
+            </form> -->
         <div id="small">
             <small>Made with <em>work</em> &amp; <em>passion</em></small><br>
             <small>&copy; 2018 &#8594; <em>Paul Vargas</em></small>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', '/scripts/particlesjs-config.json', function(){
+            console.log(`particles.json loaded`);
+        });
+    </script>
+    <script src="/scripts/main.js"></script>
 </body>
 </html>
