@@ -18,6 +18,7 @@ body {
     background-size: cover;
     background-position: 50% 50%;
     padding: 30px 0;
+    border-bottom: #ff4500 solid 2px;
 }
 
 #logo {
@@ -66,6 +67,7 @@ header ul li a:hover {
 #title h1 {
     color: #ffffff;
     font-size: 4em;
+    text-align: center;
 }
 
 #title p {
@@ -162,12 +164,21 @@ section.ok{
 }
 /* END of Scrolling Down Button */
 
-/* SECTION */
+/* BEGINNING MAIN INFO SECTION */
 
-h1 {
+/* BEGINNING About Me Section */
+
+#maininfo h1 {
     text-align: center;
-    color: blue;
-    font-size: 1.5em;
+    color: #000080;
+    font-size: 2em;
+    padding: 1em;
+}
+
+#aboutmesection {
+    background-image: url("/images/background-1747792_1280.jpg");
+    background-size: cover;
+    border-bottom: #ff4500 solid 2px;
 }
 
 #about {
@@ -184,8 +195,31 @@ h1 {
 }
 
 #about #textabout {
-    padding: 5px;
+    padding: 10px;
+    margin: 5px 10px 5px 10px; 
+    border: #000080 double;
 }
+
+#about #values {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#about #values figure {
+    padding: 10px;
+    margin: 10px;
+}
+
+#about #values figcaption {
+    text-align: center;
+    
+}
+
+/* END About Me Section */
 
 #portfolio .container {
     display: flex;
