@@ -166,14 +166,14 @@ section.ok{
 
 /* BEGINNING MAIN INFO SECTION */
 
-/* BEGINNING About Me Section */
-
 #maininfo h1 {
     text-align: center;
     color: #000080;
     font-size: 2em;
     padding: 1em;
 }
+
+/* BEGINNING About Me Section */
 
 #aboutmesection {
     background-image: url("/images/background-1747792_1280.jpg");
@@ -216,22 +216,40 @@ section.ok{
 
 #about #values figcaption {
     text-align: center;
-    
+    color: #ff4500;
+    font-weight: bold;
 }
 
 /* END About Me Section */
 
-#portfolio .container {
+/* BEGINNING Projects Section */
+
+#projectssection {
+    background-color: #FFF;    
+    border-bottom: #ff4500 solid 2px;
+}
+
+#portfolio {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-#portfolio .container figcaption {
-    flex-direction: column;
-    align-self: flex-start;
+#portfolio figure {
+    padding: 30px;
+    margin: 30px;
 }
+
+#portfolio figcaption {
+    text-align: center;
+    color: #ff4500;
+    font-weight: bold;
+    /* flex-direction: column;
+    align-self: flex-start; */
+}
+
+/* END Projects Section */
 
 #social {
     text-align: center;
@@ -247,6 +265,8 @@ section.ok{
  #social img:hover {
     transform: scale(1.1);
  }
+
+/* END MAIN INFO SECTION */
 
  /* FOOTER */
 
