@@ -1,11 +1,15 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
 }
 
 body {
+    background-color: #f5f5f5;
+    color: #000080;
     font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: normal;
 }
 
 /* HEADER */
@@ -14,16 +18,16 @@ body {
     width: 100%;
     height: 100vh;
     background-color: rgb(0,0,128);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    padding: 30px 0;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: 50% 50%; */
+    padding: 2em;
     border-bottom: #ff4500 solid 2px;
 }
 
 #logo {
     padding: 3px;
-    margin: 0px;
+    /* margin: 0px; */
 }
 
 .navbar {
@@ -36,8 +40,8 @@ body {
 
 header ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 
 header ul li {
@@ -46,7 +50,7 @@ header ul li {
 
 header ul li a {
     display: block;
-    padding: 8px;
+    padding: 1em;
     text-decoration: none;
     text-align: center;
     color: white;
@@ -60,21 +64,24 @@ header ul li a:hover {
     position: absolute;
     width: 100%;
     top: 50%;
-    left: 50%;
-    margin-left: -50%; 
+    /* left: 50%;
+    margin-left: -50%;  */
+    margin: auto;
 }
 
 #title h1 {
     color: #ffffff;
     font-size: 4em;
     text-align: center;
+    font-weight: 900;
+    padding: 0 3% 2% 3%;
+    line-height: 1em;
 }
 
 #title p {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
 }
 
 /* Scrolling Down Button */
@@ -111,9 +118,9 @@ section.ok{
 
 .scroll-down {
   position: absolute;
-  bottom: 30px;
+  bottom: 5%;
   left: 50%;
-  margin-left: -16px;
+  right: 50%;
   display: block;
   width: 32px;
   height: 32px;
@@ -176,9 +183,9 @@ section.ok{
 /* BEGINNING About Me Section */
 
 #aboutmesection {
-    background-image: url("/images/background-1747792_1280.jpg");
-    background-size: cover;
-    border-bottom: #ff4500 solid 2px;
+    /* background-image: url("/images/descarga.svg"); */
+    background-color: #ffffff;
+    /* border-bottom: #ff4500 solid 2px; */
 }
 
 #about {
@@ -191,12 +198,12 @@ section.ok{
 
 #about #imgabout {
     padding: 10px;
-    margin: 5px 10px 5px 10px; 
+    margin: 2%; 
 }
 
 #about #textabout {
-    padding: 10px;
-    margin: 5px 10px 5px 10px; 
+    padding: 0.5em; 
+    margin: 2%;
     border: #000080 double;
 }
 
@@ -221,6 +228,16 @@ section.ok{
 }
 
 /* END About Me Section */
+
+/* BEGINNING Skills Section */
+
+#skillssection {
+    /* background-image: url("/images/descarga.svg"); */
+    background-color: #f5f5f5;
+    /* border-bottom: #ff4500 solid 2px; */
+}
+
+/* END Skills Section */
 
 /* BEGINNING Projects Section */
 
@@ -251,6 +268,14 @@ section.ok{
 
 /* END Projects Section */
 
+/* BEGINNING Contact Section */
+
+#contact {
+    /* background-image: url("/images/descarga.svg"); */
+    background-color: #f5f5f5;
+    /* border-bottom: #ff4500 solid; */
+}
+
 #social {
     text-align: center;
 }
@@ -271,14 +296,7 @@ section.ok{
  /* FOOTER */
 
  footer {
-     background-color: blue;
-     color: white;
-     border: #ff9400 1px solid;
- }
-
- footer h1 {
-     color: #ff9400;
-     font-size: 2em;
+     background-color: #000088;
  }
 
  #contactform {
@@ -306,7 +324,7 @@ section.ok{
 
  #small {
      text-align: center;
-     color: #ff9400;
+     color: #ff4500;
      margin: 10px;
  }
 
