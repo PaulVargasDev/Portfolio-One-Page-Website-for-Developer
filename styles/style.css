@@ -3,11 +3,11 @@
     margin: 0px;
 }
 
-body {
+html, body {
     background-color: #f5f5f5;
     color: #000080;
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-size: 100%;
     line-height: 1.5em;
     font-weight: normal;
 }
