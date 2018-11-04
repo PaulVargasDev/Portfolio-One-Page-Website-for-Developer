@@ -4,8 +4,14 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Paul Vargas | Web Developer</title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css"/>            
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css"/>
+    <link href="styles/lightbox.min.css" rel="stylesheet">            
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
@@ -31,11 +37,11 @@
         </div>
         <!-- Scrolling Button Section (see CodePen: https://codepen.io/tr13ze/pen/VjLLgJ )-->
         <section>
-            <a href="#" class="scroll-down" address="true"></a>
+            <a href="#aboutmesection" class="scroll-down" address="true"></a>
         </section>    
     </div>
     </header>
-    <section id="maininfo"> <!--Here I use the class="ok" from the scrolling button code-->
+    <section id="maininfo" class="ok"> <!--Here I use the class="ok" from the scrolling button code-->
         
         <section id="aboutmesection">
             <h1>About Me</h1>
@@ -96,39 +102,43 @@
 
         <section id="projectssection">
             <h1>Projects</h1>
-            <div id="portfolio">
+            <div class="portfolio">
                 <figure>
-                    <img src="images/tree.jpg" alt="Integrity" width="200" height="200">
+                    <a href="images/tree.jpg" data-lightbox="project1" data-title="Title"><img src="images/tree.jpg" alt="Integrity" width="200" height="200"></a>
                     <figcaption>Integrity</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/tree.jpg" alt="Integrity" width="200" height="200">
+                    <a href="#" data-lightbox="project2" data-title="Title"><img src="images/tree.jpg" alt="Integrity" width="200" height="200"></a>
                     <figcaption>Responsibility</figcaption>
                 </figure>                     
                 <figure>
-                    <img src="images/tree.jpg" alt="Integrity" width="200" height="200">
+                    <a href="#" data-lightbox="project3" data-title="Title"><img src="images/tree.jpg" alt="Integrity" width="200" height="200"></a>
                     <figcaption>Collaboration</figcaption>
                 </figure>
+            </div>
+            <div class="portfolio">
                 <figure>
-                    <img src="images/tree.jpg" alt="Integrity" width="200" height="200">
-                    <figcaption>Growth</figcaption>
+                    <a href="images/tree.jpg" data-lightbox="project4" data-title="Title"><img src="images/tree.jpg" alt="Integrity" width="200" height="200"></a>
+                    <figcaption>Integrity</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/tree.jpg" alt="Integrity" width="200" height="200">
-                    <figcaption>Hard Work</figcaption>
-                </figure>
+                    <a href="#" data-lightbox="project5" data-title="Title"><img src="images/tree.jpg" alt="Integrity" width="200" height="200"></a>
+                    <figcaption>Responsibility</figcaption>
+                </figure>                     
                 <figure>
-                    <img src="images/tree.jpg" alt="Integrity" width="200" height="200">
-                    <figcaption>Smart Work</figcaption>
+                    <a href="#" data-lightbox="project6" data-title="Title"><img src="images/tree.jpg" alt="Integrity" width="200" height="200"></a>
+                    <figcaption>Collaboration</figcaption>
                 </figure>
             </div>
         </section>
 
         <section id="contact">
         <h1 id="3">Let's Get In Touch!</h1>
+            <div id="contactbutton">
+                <a href="mailto:paulvargasdev@gmail.com"><button type="button" class="button">paulvargasdev@gmail.com</button></a>
+            </div>
             <div id="social">
-                <a href="https://github.com/PaulVargasDev" target="_blank"><img src="images/Github-Free-PNG-Image.png" alt="GitHub" width="100" height="100"></a>
-                <a href="https://stackoverflow.com/users/story/8809106" target="_blank"><img src="images/stackoverflow.png" alt="Stalk Overflow" width="100" height="100"></a>
+                <a href="https://github.com/PaulVargasDev" target="_blank"><img src="images/Github-Free-PNG-Image.png" alt="GitHub" width="" height=""></a>
             </div>
         </section>
     </section>
@@ -144,5 +154,6 @@
         });
     </script>
     <script src="/scripts/main.js"></script>
+    <script src="/scripts/lightbox.min.js"></script>
 </body>
 </html>

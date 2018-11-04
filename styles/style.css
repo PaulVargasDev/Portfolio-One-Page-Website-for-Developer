@@ -86,8 +86,7 @@ header ul li a:hover {
 }
 
 /* Scrolling Down Button */
-:after,
-:before {
+*, :after, :before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -258,39 +257,52 @@ section.ok{
 
 /* BEGINNING Projects Section */
 
-#projectssection {
+ #projectssection {
     background-color: #FFF;    
     border-bottom: #ff4500 solid 2px;
 }
 
-#portfolio {
+.portfolio {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-#portfolio figure {
-    padding: 30px;
-    margin: 30px;
+.portfolio figure {
+    padding: 20px;
+    margin: 20px;
 }
 
-#portfolio figcaption {
+.portfolio figcaption {
     text-align: center;
     color: #ff4500;
     font-weight: bold;
-    /* flex-direction: column;
-    align-self: flex-start; */
 }
 
-/* END Projects Section */
+/* END Projects Section */ 
 
 /* BEGINNING Contact Section */
 
 #contact {
-    /* background-image: url("/images/descarga.svg"); */
     background-color: #f5f5f5;
-    /* border-bottom: #ff4500 solid; */
+    border-bottom: #ff4500 solid 2px;
+}
+
+#contactbutton {
+    text-align: center;
+}
+.button {
+    background-color: #ff4500;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;    
+}
+
+.button:hover {
+    background-color: #000088;
 }
 
 #social {
@@ -299,14 +311,15 @@ section.ok{
  #social img {
      padding: 10px;
      margin: 10px 40px 10px 40px;
-     width: 10%;
-     height: 10%;
-     transition: all 1s;
+     max-width: 3em;
+     max-height: 3em;
+     /* transition: all 1s; */
  }
 
- #social img:hover {
+ /* #social img:hover {
     transform: scale(1.1);
- }
+ } */
+ /* END Contact Section */
 
 /* END MAIN INFO SECTION */
 
@@ -316,33 +329,10 @@ section.ok{
      background-color: #000088;
  }
 
- #contactform {
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     flex-wrap: wrap;
- }
- #contactform #contact1 {
-    padding: 15px;
-    margin: 0px;
- }
-
-  }
- #contactform #contact2 {
-    padding: 15px;
-    margin: 0px;
- }
-
- #contactform span {
-     font-style: italic;
-     color: #ff9400;
- }
-
  #small {
      text-align: center;
      color: #ff4500;
-     margin: 10px;
+     /* margin: 10px; */
  }
 
  #small em {
