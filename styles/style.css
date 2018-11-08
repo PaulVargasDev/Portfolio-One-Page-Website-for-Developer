@@ -15,20 +15,14 @@ html, body {
 /* HEADER */
 
 #particles-js {
-    /* width: 100%; */
     height: 100vh;
     background-color: rgb(0,0,128);
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: 50% 50%; */
-    /* padding: 2em; */
     border-bottom: #ff4500 solid 2px;
 }
 
 #logo {
     padding: 5px;
     margin-top: 2px;
-    /* margin: 0px; */
 }
 
 .navbar {
@@ -41,8 +35,6 @@ html, body {
 
 header ul {
     list-style-type: none;
-    /* margin: 0;
-    padding: 0; */
 }
 
 header ul li {
@@ -65,8 +57,6 @@ header ul li a:hover {
     position: absolute;
     width: 100%;
     top: 50%;
-    /* left: 50%;
-    margin-left: -50%;  */
     margin: auto;
 }
 
@@ -75,7 +65,6 @@ header ul li a:hover {
     font-size: 4em;
     text-align: center;
     font-weight: 900;
-    /* padding: 0 3% 2% 3%; */
     line-height: 1em;
 }
 
@@ -91,24 +80,6 @@ header ul li a:hover {
   margin: 0;
   padding: 0;
 }
-
- /* section {
-  height: 100vh;
-  width: 100%;
-  display: table;
-  
-}
-section.ok{
-  background-color: #555;
-} */
-
-/* p{
-  color: white;
-  font-family: arial;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-} */
 
 .scroll-down {
   opacity: 1;
@@ -183,9 +154,7 @@ section.ok{
 /* BEGINNING About Me Section */
 
 #aboutmesection {
-    /* background-image: url("/images/descarga.svg"); */
     background-color: #ffffff;
-    /* border-bottom: #ff4500 solid 2px; */
 }
 
 #about {
@@ -197,7 +166,7 @@ section.ok{
 }
 
 #about #imgabout {
-    padding: 10px;
+    padding: 5px;
     margin: 2%; 
 }
 
@@ -232,9 +201,7 @@ section.ok{
 /* BEGINNING Skills Section */
 
 #skillssection {
-    /* background-image: url("/images/descarga.svg"); */
     background-color: #f5f5f5;
-    /* border-bottom: #ff4500 solid 2px; */
 }
 
 #skillssection p {
@@ -260,6 +227,11 @@ section.ok{
  #projectssection {
     background-color: #FFF;    
     border-bottom: #ff4500 solid 2px;
+}
+
+#projectssection p {
+    text-align: center;
+    margin: 10px;
 }
 
 .portfolio {
@@ -313,12 +285,8 @@ section.ok{
      margin: 10px;
      max-width: 3em;
      max-height: 3em;
-     /* transition: all 1s; */
  }
 
- /* #social img:hover {
-    transform: scale(1.1);
- } */
  /* END Contact Section */
 
 /* END MAIN INFO SECTION */
@@ -332,7 +300,6 @@ section.ok{
  #small {
      text-align: center;
      color: #ff4500;
-     /* margin: 10px; */
  }
 
  #small em {
