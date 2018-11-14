@@ -222,14 +222,22 @@ header ul li a:hover {
 
 /* END Skills Section */
 
-/* BEGINNING Projects Section */
+/* BEGINNING Projects & Open Source Section */
 
  #projectssection {
     background-color: #FFF;    
+}
+
+#opensourcesection {
+    background-color: #f5f5f5;    
     border-bottom: #ff4500 solid 2px;
 }
 
-#projectssection p {
+#opensourcesection img {
+    border: #ff4500 1px solid;
+}
+
+#projectssection, #opensourcesection p {
     text-align: center;
     margin: 10px;
 }
@@ -252,7 +260,7 @@ header ul li a:hover {
     font-weight: bold;
 }
 
-/* END Projects Section */ 
+/* END Projects & Open Source Section */ 
 
 /* BEGINNING Contact Section */
 
