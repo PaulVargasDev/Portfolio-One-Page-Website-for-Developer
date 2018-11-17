@@ -16,34 +16,37 @@
 </head>
 <body>
     <header>
+<!-- START: Particles Section -->
     <div id="particles-js">    
-        <div class="navbar">
-            <div id="logo">
-                <img src="images/iconologo2finalsombra.png" alt="Paul Vargas Logo" width="60" height="58">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#aboutmesection">About</a></li>
-                    <li><a href="#skillssection">Skills</a></li>
-                    <li><a href="#projectssection">Projects</a></li>
-                    <li><a href="#opensourcesection">Open Source</a></li>
-                    <li><a href="#contact">Contact</a></li>      
-                </ul>
-            </nav>
-        </div>
         <div id="title">
             <h1>Hi! I'm Paul.</h1>
             <br>
             <p>Web Developer</p>
         </div>
-        <!-- Scrolling Button Section (see CodePen: https://codepen.io/tr13ze/pen/VjLLgJ )-->
-        <section>
-            <a href="#aboutmesection" class="scroll-down" address="true"></a>
-        </section>    
     </div>
+<!-- Scrolling Down Button Section (see CodePen: https://codepen.io/tr13ze/pen/VjLLgJ )-->
+    <section>
+        <a href="#maininfo" class="scroll-down" address="true"></a>
+    </section>
+<!-- END Particles Section -->
     </header>
-    <section id="maininfo" class="ok"> <!--Here I use the class="ok" from the scrolling button code-->
-        
+
+    <section id="maininfo" class="ok"> <!--Here I use the class="ok" for the scrolling button code-->  
+            
+            <div id="navbar">
+                <!-- <div id="logo">
+                    <img src="images/iconologo2finalsombra.png" alt="Paul Vargas Logo" width="60" height="58">
+                </div> -->
+                <nav>
+                    <ul>
+                        <li><a href="#aboutmesection">About</a></li>
+                        <li><a href="#skillssection">Skills</a></li>
+                        <li><a href="#projectssection">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>      
+                    </ul>
+                </nav>
+            </div>
+
         <section id="aboutmesection">
             <h1>About Me</h1>
             <div id="about">
@@ -93,6 +96,7 @@
         </section>
 
         <section id="skillssection">
+            <div class="menupoint"></div>
             <h1>Skills</h1>
             <p>Since learnig is one of my core values, I keep developing my skills constantly to become a better web developer.</p>
             <p>These are my technical skills at the moment:</p>
@@ -121,7 +125,7 @@
         </section>
 
         <section id="opensourcesection">
-            <h1>Open Source</h1>
+            <h1>Open Source Projects</h1>
             <p>Communities and Open source projects I contribute to at this moment:</p>
             <div class="portfolio">
                 <figure>

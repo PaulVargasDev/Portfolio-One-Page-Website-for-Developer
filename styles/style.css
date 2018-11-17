@@ -19,73 +19,6 @@ html, body {
     border-bottom: #ff4500 solid 2px;
 }
 
-#logo {
-    padding: 5px;
-    margin-top: 2px;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-header ul {
-    list-style-type: none;
-}
-
-header ul li {
-    float: left;
-}
-
-header ul li a {
-    display: block;
-    padding: 1em;
-    text-decoration: none;
-    text-align: center;
-    color: #ff4500;
-}
-
-header ul li a:hover {
-    color: white;
-}
-
-/* Test (https://www.youtube.com/watch?v=mFf56HOxOC0) */
-/* .navbar {
-    float: left;
-    width: 100px;
-    height: 100%;
-    overflow: hidden;
-}
-
-.navbar ul {
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li {
-    list-style: none;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: black;
-    height: 80px;
-    width: 100%;
-    line-height: 80px;
-    text-align: center;
-    display: block;
-    transition: 0.6s all;
-}
-
-.navbar ul li a:hover {
-    background: #34495e;
-} */
-
-
-
 #title {
     position: absolute;
     width: 100%;
@@ -174,8 +107,9 @@ header ul li a:hover {
   }
 }
 /* END of Scrolling Down Button */
+/* END of Header */
 
-/* BEGINNING MAIN INFO SECTION */
+/* START: MAIN INFO SECTION */
 
 #maininfo h1 {
     text-align: center;
@@ -184,7 +118,57 @@ header ul li a:hover {
     padding: 1em;
 }
 
-/* BEGINNING About Me Section */
+/* START: MAIN NAV MENU */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #000080;
+    border-bottom: #ff4500 solid 2px;
+    height: auto;
+}
+
+/* #logo {
+    padding: 2px;
+    margin-top: 2px;
+} */
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+#navbar ul li a:hover {
+    color: #ff4500;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.sticky + #aboutmesection {
+    padding-top: 60px;
+  }
+
+/* END MAIN NAV MENU */
+
+/* START: About Me Section */
 
 #aboutmesection {
     background-color: #ffffff;
@@ -231,9 +215,10 @@ header ul li a:hover {
 
 /* END About Me Section */
 
-/* BEGINNING Skills Section */
+/* START: Skills Section */
 
 #skillssection {
+    padding-top: 40px;
     background-color: #f5f5f5;
 }
 
@@ -255,9 +240,10 @@ header ul li a:hover {
 
 /* END Skills Section */
 
-/* BEGINNING Projects & Open Source Section */
+/* START: Projects & Open Source Section */
 
  #projectssection {
+    padding-top: 40px;
     background-color: #FFF;    
 }
 
@@ -295,7 +281,7 @@ header ul li a:hover {
 
 /* END Projects & Open Source Section */ 
 
-/* BEGINNING Contact Section */
+/* START: Contact Section */
 
 #contact {
     background-color: #fff;
@@ -332,7 +318,7 @@ header ul li a:hover {
 
 /* END MAIN INFO SECTION */
 
- /* FOOTER */
+ /* START: FOOTER */
 
  footer {
      background-color: #000088;
